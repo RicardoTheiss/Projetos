@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Comfortaa:wght@300&family=Montserrat:wght@100&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        fieldset input {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .widith{
+            width: 10%;
+        }
+        body{
+            font-family:'Catamaran', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="">
+
+            <fieldset class="widith">
+                <legend>Deixe se recado</legend>
+                
+                
+                <input type="text" id="idNome" name="nmNome" value="" placeholder="Nome completo" required>
+                <br>
+                
+                <input type="text" id="idemail" name="nmNome" value="" placeholder="seu@email.com" required>
+                <br>
+      
+                <input type="text" id="idEmpresa" name="nmEmpresa" value="" placeholder="Empresa/Organização">
+                <br>
+                
+                <input type="text" id="idTelefone" name="nmTelefone" value="" placeholder="Tel">
+                <br>
+                
+                <select type="select" name="" id="" size="">
+                    <option value="" disabled selected>Motivo do contato</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="problema">Problema com Produto</option>
+                    <option value="reclamação">Reclamação</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br><br><br>
+                    <textarea name="nmMensagem" id="Mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+
+    
+                <br><br>
+    
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>    
+    </main>
+    
+</body>
+</html>
